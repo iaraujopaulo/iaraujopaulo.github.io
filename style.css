@@ -9,12 +9,12 @@ html, body, aside, main, section {
     }
 
 html{
-        scroll-behavior: smooth;
+    scroll-behavior: smooth;
     }    
 
 /* SECTIONS */
 section{
-    margin-left: 300px;
+    max-width: 900px;
     padding: 5% 0 0 300px;;
 }    
 
