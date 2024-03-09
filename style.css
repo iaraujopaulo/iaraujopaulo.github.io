@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #C94666;
+    --secondary: #78293d;
+    --hover: #5E2130;
+    --dark: #17080C;
+}
+
 html, body, aside, main, section {
     height: 100%;
     }
@@ -37,7 +44,7 @@ section{
 .aside-wrap{
     width: 240px;
     height: 100%;
-    background-image: linear-gradient(to bottom right, red, black);
+    background-image: linear-gradient(to bottom right, var(--primary), black);
     padding: 100px 20px; 
     position: fixed;
 }
@@ -72,7 +79,7 @@ section{
 /* SECTION HOME */
 #home .email-link{
     text-transform: uppercase;
-    color:red;
+    color: var(--primary);
     text-decoration: none;
 }
 
@@ -82,7 +89,7 @@ section{
 
 .social-links li {
     display: inline-block;
-    background-color: red;
+    background-color: var(--primary);
     margin-right: 10px;
 }
 
@@ -93,5 +100,6 @@ section{
  font-weight: bold;
  font-size: 26px;
  text-decoration: none;
- background-color: red;
+ background-color: var(--secondary);
 }
+
