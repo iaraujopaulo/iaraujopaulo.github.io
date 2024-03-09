@@ -71,3 +71,13 @@ section{
     color:red;
     text-decoration: none;
 }
+
+.social-links li a {
+ padding: 10px;
+ display: block;
+ color: #fff;
+ font-weight: bold;
+ font-size: 26px;
+ text-decoration: none;
+ background-color: red;
+}
